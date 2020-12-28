@@ -1,0 +1,593 @@
+148
+Örök szosz
+Senki nem szereti Harryt
+orok_szosz
+false
+Dumbledore fasz
+Senki nem szereti Harryt
+dumbledore_fasz
+false
+Csak én gyanusitottalak
+Senki nem szereti Harryt
+csak_en_gyanusitottalak
+false
+Ronald azt kéri
+Senki nem szereti Harryt
+ronald_azt_kerte
+false
+Vilmos már véresen szereti
+Senki nem szereti Harryt
+vilmos_mar_veresen
+false
+A győzelemhez
+Senki nem szereti Harryt
+a_gyozelemhez
+false
+Szűz serlege
+Senki nem szereti Harryt
+szuz_serlege
+false
+Gyakorlati oktatás
+Senki nem szereti Harryt
+gyakorlati_oktatas
+false
+A bóbálábó bajnoka
+Senki nem szereti Harryt
+bobalabo_bajnoka
+false
+Sexy Digory
+Senki nem szereti Harryt
+sexy_digory
+false
+Trófeák trófeája
+Senki nem szereti Harryt
+trofeak_trofeaja
+false
+Süket Süsü
+Senki nem szereti Harryt
+suket_susu
+false
+Minek az a virág?
+Senki nem szereti Harryt
+mi_az_a_virag
+false
+Hermioneval üzentem
+Senki nem szereti Harryt
+hermioneval_uzentem
+false
+Baszdmeg Joe!
+Senki nem szereti Harryt
+baszdmeg_joe
+false
+Csocsó!
+Senki nem szereti Harryt
+csocso
+false
+Egy védett házba viszik
+Senki nem szereti Harryt
+egy_vedett_hazba
+false
+Egy vérbeli politikus válasza
+Senki nem szereti Harryt
+egy_verbeli_politikus_valasza
+false
+Engem érdekel
+Senki nem szereti Harryt
+engem_erdekel
+false
+Harry szűz
+Senki nem szereti Harryt
+harry_szuz
+false
+Itt gyönyörködjünk egymásban
+Senki nem szereti Harryt
+itt_gyonyorkodjunk_egymasban
+false
+Jó randa mi?!
+Senki nem szereti Harryt
+jo_randa_mi
+false
+Nem megmondtam
+Senki nem szereti Harryt
+nem_megmondttam
+false
+Potternek nincs választása
+Senki nem szereti Harryt
+potternek_nincs_valasztasa
+false
+Rendkívüli erejű
+Senki nem szereti Harryt
+rendkivuli_ereju
+false
+Te voltál esküszöl?
+Senki nem szereti Harryt
+te_voltal
+false
+Tiltakozom!
+Senki nem szereti Harryt
+tiltakozom
+false
+Tromedlov ölte meg
+Senki nem szereti Harryt
+tromedlov_olte_meg
+false
+Tudnia kell
+Senki nem szereti Harryt
+tudnia_kell
+false
+Tudom hogyan történt
+Senki nem szereti Harryt
+tudom_hogyan_tortent
+false
+Here, nyiss már ajtót
+Azkabani Roxfort part 2
+here_nyiss_mar_ajtot
+false
+Egy kémény körül keringett
+Azkabani Roxfort part 2
+egy_kemeny_korul_keringett
+false
+Nem veszem be
+Azkabani Roxfort part 2
+nem_veszem_be
+false
+Jó kiskutya vagy Vernon
+Azkabani Roxfort part 2
+jo_kis_kutya_vagy_vernon
+false
+A varázslat amire megtanítalak
+Azkabani Roxfort part 2
+a_varazslat_amire_megtanitalak
+false
+Adjatok rá okot
+Azkabani Roxfort part 2
+adjatok_ra_okot
+false
+Aki volt sötét elvállalni
+Azkabani Roxfort part 2
+aki_volt_sotet_elvallalni
+false
+Akko baszdmeg
+Azkabani Roxfort part 2
+akko_baszdmeg
+false
+Akkor és különösen akkor
+Azkabani Roxfort part 2
+akkor_es_kulonosen_akkor
+false
+Apám majd elintézi
+Azkabani Roxfort part 2
+apam_majd_elintezi
+false
+Az apám részeg volt
+Azkabani Roxfort part 2
+az_apam_reszeg_volt
+false
+Az ügy le van szarva
+Azkabani Roxfort part 2
+az_ugy_le_van_szarva
+false
+Azért szökött meg
+Azkabani Roxfort part 2
+azert_szokott_meg
+false
+Baszdmeg Vernon bácsi!
+Azkabani Roxfort part 2
+baszdmeg_vernon_bacsi
+false
+Csíny letudva
+Azkabani Roxfort part 2
+csiny_letudva
+false
+Csúnya nevetés
+Azkabani Roxfort part 2
+csunya_rohog
+false
+De a mélytorok
+Azkabani Roxfort part 2
+de_a_melytorok
+false
+Dumbledore csókot
+Azkabani Roxfort part 2
+dumbledore_csokot
+false
+Édesanyád cigány volt
+Azkabani Roxfort part 2
+edesanyad_c_volt
+false
+Édesapád meleg volt
+Azkabani Roxfort part 2
+edesapad_meleg_volt
+false
+Egy fogam sincs Harry
+Azkabani Roxfort part 2
+egy_fogam_sincs
+false
+Itthon nem mersz
+Azkabani Roxfort part 2
+el_a_kezekkel
+false
+En vagyok az Isten!
+Azkabani Roxfort part 2
+en_vagyok_az_isten
+false
+Ez a térkép
+Azkabani Roxfort part 2
+ez_a_terkep
+false
+Ez meg ki lehet?
+Azkabani Roxfort part 2
+ez_meg_ki_lehet
+false
+Faszlevest?
+Azkabani Roxfort part 2
+faszlevest
+false
+Faszmancival
+Azkabani Roxfort part 2
+faszmancival
+false
+Fekete tesó
+Azkabani Roxfort part 2
+fekete_teso
+false
+Fosás nemes tudományát
+Azkabani Roxfort part 2
+fosas_nemes_tudomanyat
+false
+Ha nem látnád
+Azkabani Roxfort part 2
+ha_nem_latnad
+false
+Halál színezi az anyád
+Azkabani Roxfort part 2
+halal_szinezi_az_anyad
+false
+Hasznaljak ott a faszpálcát?
+Azkabani Roxfort part 2
+hasznaljak_ott
+false
+Hát idehallgass
+Azkabani Roxfort part 2
+hat_idehallgass
+false
+Hiába vagy fiatal
+Azkabani Roxfort part 2
+hiaba_vagy_fiatal
+false
+Nincs semmi rendben
+Azkabani Roxfort part 2
+igy_aztan
+false
+Izgató úr
+Azkabani Roxfort part 2
+izgato_ur
+false
+Jótanács
+Azkabani Roxfort part 2
+jotanacs
+false
+Kérdezhetek valamit?
+Azkabani Roxfort part 2
+kerdezhetek_valamit
+false
+Közel sem elég jó
+Azkabani Roxfort part 2
+kozel_sem_eleg_jo
+false
+Lapozzatok
+Azkabani Roxfort part 2
+lapozzatok
+false
+Macska!? Ez egy Buzi!
+Azkabani Roxfort part 2
+macska_ez_egy_buzi
+false
+Makesz a gyilkos
+Azkabani Roxfort part 2
+makesz_a_gyilkos
+false
+Miafaszt nézel?
+Azkabani Roxfort part 2
+miafaszt_nezel
+false
+Mivel is foglalkozott?
+Azkabani Roxfort part 2
+mivel_is_foglalkozott
+false
+Ne mondd ki a nevét
+Azkabani Roxfort part 2
+ne_mondd_ki
+false
+Ne okold magad
+Azkabani Roxfort part 2
+ne_okold_magad
+false
+Néhány szót szólni részegen
+Azkabani Roxfort part 2
+nehany_szot_szolni_reszegen
+false
+Nem!
+Azkabani Roxfort part 2
+nem
+false
+Nem akartam
+Azkabani Roxfort part 2
+nem_akartam
+false
+Nem az apán múlik
+Azkabani Roxfort part 2
+nem_az_apan_mulik
+false
+Nem, az lehetetlen!
+Azkabani Roxfort part 2
+nem_az_lehetetlen
+false
+Nem küldünk az Azkabanba
+Azkabani Roxfort part 2
+nem_kuldunk_azkabanba
+false
+Nem Rubeusz Hagrid
+Azkabani Roxfort part 2
+nem_rubeusz_hagrid
+false
+Nyald ki szépen
+Azkabani Roxfort part 2
+nyald_ki_szepen
+false
+Tudtam én hogy elsőre nem sikerül
+Azkabani Roxfort part 2
+nyugodj_meg
+false
+Oh még valami
+Azkabani Roxfort part 2
+oh_meg_valami
+false
+Ohhohoho
+Azkabani Roxfort part 2
+ohohoho
+false
+Őrá ütöttél
+Azkabani Roxfort part 2
+ora_utottel
+false
+Rögtön felismertelek
+Azkabani Roxfort part 2
+rogton_felismertelek
+false
+Sexpecto Patronum
+Azkabani Roxfort part 2
+sexpecto_patronum
+false
+Sirius sötét
+Azkabani Roxfort part 2
+sirius_sotet
+false
+Sok szart
+Azkabani Roxfort part 2
+sok_szart
+false
+Sokszor meg szoktak
+Azkabani Roxfort part 2
+sokszor_meg_szoktak
+false
+Sötét Perseust
+Azkabani Roxfort part 2
+sotet_perseust
+false
+Szenvedni fogsz!
+Azkabani Roxfort part 2
+szenvedni_fogsz
+false
+Szinimúr
+Azkabani Roxfort part 2
+szinimur
+false
+Szüleid áldozatát
+Azkabani Roxfort part 2
+szuleid_aldozatat
+false
+Te csak ne helyeselj
+Azkabani Roxfort part 2
+te_csak_ne_helyeselj
+false
+Tököm tele van
+Azkabani Roxfort part 2
+tokom_tele_van
+false
+Üdvözlöm
+Azkabani Roxfort part 2
+udvozlom
+false
+Valamit nem értek
+Azkabani Roxfort part 2
+valamit_nem_ertek
+false
+Van Harrynek egy
+Azkabani Roxfort part 2
+van_harrynek_egy
+false
+Helyesnek tartja Hagridot?
+Harry Potter és a Bölcsek Extended Cut
+helyesnek_tartja_hagridot
+false
+Harry ő Voldemort!
+Harry Potter és a Bölcsek Extended Cut
+herri_o_voldemort
+false
+Jó estét faszprofesszor
+Harry Potter és a Bölcsek Extended Cut
+jo_estet_faszprofesszor
+false
+Xia Xar professzor!
+Harry Potter és a Bölcsek Extended Cut
+xia_xar_professzor
+false
+Úgy gondolja bölcs dolog volt...
+Harry Potter és a Bölcsek Extended Cut
+megbaszni_hagridot
+false
+PPPP
+Harry Potter és a Bölcsek Extended Cut
+ppppp
+false
+Fenyegető zene
+Harry Potter és a Bölcsek Extended Cut
+zene1
+false
+Dumbledore őrzője
+Harry Potter és a Bölcsek Extended Cut
+dumbledor_orzoje
+false
+Ébressze fel
+Harry Potter és a Bölcsek Extended Cut
+ebressze_fel
+false
+Egyszer kétszer ráültem a kicsire
+Harry Potter és a Bölcsek Extended Cut
+egyszer_ketszer_raultem
+false
+Felháborító! Botrányos!
+Harry Potter és a Bölcsek Extended Cut
+felhaborito_botranyos
+false
+Gyerünk!
+Harry Potter és a Bölcsek Extended Cut
+gyerunk
+false
+Hány ajándékom van?
+Harry Potter és a Bölcsek Extended Cut
+hany_ajandekom_van
+false
+Hol marad a bkv?
+Harry Potter és a Bölcsek Extended Cut
+hol_marad_a_bkv
+false
+Igen Vernon néni
+Harry Potter és a Bölcsek Extended Cut
+igen_vernon_neni
+false
+Kelj fel!
+Harry Potter és a Bölcsek Extended Cut
+kelj_fel
+false
+Ne szomorkodj bu zi!
+Harry Potter és a Bölcsek Extended Cut
+ne_szomorkodj_bu_zi
+false
+Nem te vagy Harry
+Harry Potter és a Bölcsek Extended Cut
+nem_te_vagy_harry
+false
+Nemi erőszak!
+Harry Potter és a Bölcsek Extended Cut
+nemi_eroszak
+false
+Remélem minden rossz
+Harry Potter és a Bölcsek Extended Cut
+remelem_minden_rossz
+false
+Rubeusz Meggalagony
+Harry Potter és a Bölcsek Extended Cut
+rubeusz_meggalagony
+false
+Szilvi
+Harry Potter és a Bölcsek Extended Cut
+szilvi
+false
+Tamás Potter
+Harry Potter és a Bölcsek Extended Cut
+tamas_potter
+false
+Tromedlov
+Harry Potter és a Bölcsek Extended Cut
+thromedov
+false
+Viszem Petúnia bácsi
+Harry Potter és a Bölcsek Extended Cut
+viszem_petunia_bacsi
+false
+Szomorú zene
+Harry Potter és a Bölcsek Extended Cut
+zene_szomoru
+false
+Zsidó vagy Harry! teljes
+Harry Potter és a Bölcsek Extended Cut
+zsido_v_harry2
+false
+Zsidó vagy Harry!
+Harry Potter és a Bölcsek Extended Cut
+zsido_v_hary
+false
+Dementor, dementor!
+Azkabani Roxfort
+dementor_dementor
+false
+FaszFaszFasz
+Azkabani Roxfort
+faszfaszfasz
+false
+Fogyatékos röhögés
+Azkabani Roxfort
+fogyatekos_nevetes
+false
+Fuldokló köhögés
+Azkabani Roxfort
+fuldoklo_kohoges
+false
+Harry megőrül
+Azkabani Roxfort
+harry_megorul
+false
+Csúnya nevetés rövid változat
+Azkabani Roxfort
+hulye_rohog
+false
+Így kell ezt csinálni
+Azkabani Roxfort
+igy_kell_ezt_csinalni
+false
+Jól csináltam?
+Azkabani Roxfort
+jol_csinaltam
+false
+Ki van itt?
+Azkabani Roxfort
+ki_van_itt
+false
+Kis kebled
+Azkabani Roxfort
+kis_kebled
+false
+Légyszíves írd ezt alá!
+Azkabani Roxfort
+legyszives_ird_ezt_ala
+false
+Lumosz
+Azkabani Roxfort
+lumosz
+false
+Ahol egy kémény körü...
+Azkabani Roxfort
+megtalaltak
+false
+Megütött!
+Azkabani Roxfort
+megutott
+false
+Mr. Harry Wisley Potter
+Azkabani Roxfort
+mr_harry_wisley_potter
+false
+Nyissátok ki a gerincét
+Azkabani Roxfort
+nyissatok_ki_a_gerincet
+false
+Peersze
+Azkabani Roxfort
+peersze
+false
+Voldemort
+Azkabani Roxfort
+voldemort
+false
