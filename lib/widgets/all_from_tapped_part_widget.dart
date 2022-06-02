@@ -13,10 +13,10 @@ class AllFromTappedPartWidget extends StatefulWidget {
       _AllFromTappedPartWidgetState();
 }
 
-String fileName;
+String ?fileName;
 
 class _AllFromTappedPartWidgetState extends State<AllFromTappedPartWidget> {
-  List<FileData> partFiles = new List<FileData>();
+  List<FileData> partFiles = [];
   bool isPlaying = false;
   bool allLiked = false;
   bool _result = false;
@@ -37,7 +37,7 @@ class _AllFromTappedPartWidgetState extends State<AllFromTappedPartWidget> {
       return Scaffold(
           appBar: AppBar(
             title: new Center(
-              child: Text(actualPart, textAlign: TextAlign.center),
+              child: Text(actualPart!, textAlign: TextAlign.center),
             ),
           ),
           backgroundColor: Colors.black,
@@ -48,17 +48,17 @@ class _AllFromTappedPartWidgetState extends State<AllFromTappedPartWidget> {
   Future<bool> readPartFiles() async {
     if (allLiked && allLikedTappedOrInit) {
       partFiles.clear();
-      for (int i = 0; i < files.length; i++) {
-        if (files.elementAt(i).part == actualPart &&
-            files.elementAt(i).isLiked) {
-          partFiles.add(files.elementAt(i));
+      for (int i = 0; i < files!.length; i++) {
+        if (files!.elementAt(i).part == actualPart &&
+            files!.elementAt(i).isLiked) {
+          partFiles.add(files!.elementAt(i));
         }
       }
     } else if (allLikedTappedOrInit) {
       partFiles.clear();
-      for (int i = 0; i < files.length; i++) {
-        if (files.elementAt(i).part == actualPart) {
-          partFiles.add(files.elementAt(i));
+      for (int i = 0; i < files!.length; i++) {
+        if (files!.elementAt(i).part == actualPart) {
+          partFiles.add(files!.elementAt(i));
         }
       }
     }

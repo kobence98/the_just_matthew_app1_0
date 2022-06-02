@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -14,11 +13,11 @@ class PlayButton extends StatefulWidget {
   final VoidCallback onPressed;
 
   PlayButton({
-    @required this.onPressed,
+    required this.onPressed,
     this.initialIsPlaying = false,
     this.playIcon = const Icon(Icons.play_arrow),
     this.pauseIcon = const Icon(Icons.pause),
-  }) : assert(onPressed != null);
+  });
 
   @override
   _PlayButtonState createState() => _PlayButtonState();
@@ -28,21 +27,21 @@ class _PlayButtonState extends State<PlayButton> with TickerProviderStateMixin {
   static const _kToggleDuration = Duration(milliseconds: 300);
   static const _kRotationDuration = Duration(seconds: 5);
 
-  bool isPlaying;
+  bool ?isPlaying;
   AudioCache cache = AudioCache();
-  AudioPlayer player;
+  AudioPlayer ?player;
 
   // rotation and scale animations
-  AnimationController _rotationController;
-  AnimationController _scaleController;
+  AnimationController ?_rotationController;
+  AnimationController ?_scaleController;
   double _rotation = 0;
   double _scale = 0.85;
 
-  bool get _showWaves => !_scaleController.isDismissed;
+  bool get _showWaves => !_scaleController!.isDismissed;
 
-  void _updateRotation() => _rotation = _rotationController.value * 2 * pi;
+  void _updateRotation() => _rotation = _rotationController!.value * 2 * pi;
 
-  void _updateScale() => _scale = (_scaleController.value * 0.2) + 0.85;
+  void _updateScale() => _scale = (_scaleController!.value * 0.2) + 0.85;
 
   @override
   void initState() {
@@ -60,29 +59,29 @@ class _PlayButtonState extends State<PlayButton> with TickerProviderStateMixin {
   }
 
   void _onToggle() {
-    if (_scaleController.isCompleted) {
-      _scaleController.reverse();
+    if (_scaleController!.isCompleted) {
+      _scaleController!.reverse();
     } else {
-      _scaleController.forward();
+      _scaleController!.forward();
     }
     widget.onPressed();
-    if (!isPlaying) {
+    if (!isPlaying!) {
       setState(() {
-        isPlaying = !isPlaying;
+        isPlaying = !isPlaying!;
         _stopButtonChange();
       });
     } else {
       setState(() {
-        isPlaying = !isPlaying;
-        player.stop();
-        player.release();
+        isPlaying = !isPlaying!;
+        player!.stop();
+        player!.release();
       });
     }
   }
 
   void _stopButtonChange() async {
     bool started = false;
-    player = await cache.play("audios/" + fileName + ".mp3").then((audioPlayer) {
+    player = await cache.play("audios/" + fileName! + ".mp3").then((audioPlayer) {
       audioPlayer.setVolume(70);
       audioPlayer.onAudioPositionChanged.listen((Duration dur) => {
         if(dur > Duration(microseconds: 1) && started == false){
@@ -90,7 +89,7 @@ class _PlayButtonState extends State<PlayButton> with TickerProviderStateMixin {
           setState(() {
             audioPlayer.getDuration().then((duration) async{
               await new Future.delayed(Duration(milliseconds: duration));
-              if(isPlaying){
+              if(isPlaying!){
                 _onToggle();
               }
               return duration;
@@ -134,7 +133,7 @@ class _PlayButtonState extends State<PlayButton> with TickerProviderStateMixin {
           Container(
             constraints: BoxConstraints.expand(),
             child: AnimatedSwitcher(
-              child: _buildIcon(isPlaying),
+              child: _buildIcon(isPlaying!),
               duration: _kToggleDuration,
             ),
             decoration: BoxDecoration(
@@ -149,8 +148,8 @@ class _PlayButtonState extends State<PlayButton> with TickerProviderStateMixin {
 
   @override
   void dispose() {
-    _scaleController.dispose();
-    _rotationController.dispose();
+    _scaleController!.dispose();
+    _rotationController!.dispose();
     super.dispose();
   }
 }
@@ -160,7 +159,7 @@ class Blob extends StatelessWidget {
   final double scale;
   final Color color;
 
-  const Blob({this.color, this.rotation = 0, this.scale = 1});
+  const Blob({required this.color, this.rotation = 0, this.scale = 1});
 
   @override
   Widget build(BuildContext context) {

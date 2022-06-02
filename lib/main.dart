@@ -3,8 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'entities/file.dart';
 
-List<FileData> files;
-List<String> parts = new List<String>();
+List<FileData> ?files;
+List<String> ?parts = [];
 
 void main() {
   runApp(MyApp());

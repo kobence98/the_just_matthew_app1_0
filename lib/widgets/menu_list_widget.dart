@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import '../main.dart';
 import 'all_from_tapped_part_widget.dart';
 
-String actualPart;
+String ?actualPart;
 
 class MenuListWidget extends StatefulWidget {
   @override
@@ -41,7 +41,7 @@ class _MenuListWidgetState extends State<MenuListWidget> {
   Widget _menuListView() {
     return ListView.builder(
       padding: EdgeInsets.only(top: 10.0),
-      itemCount: parts.length,
+      itemCount: parts!.length,
       itemBuilder: (context, position) {
         return Card(
           color: Colors.indigo[800],
@@ -51,7 +51,7 @@ class _MenuListWidgetState extends State<MenuListWidget> {
               child: FittedBox(
                 fit: BoxFit.scaleDown,
                 child: Text(
-                  parts.elementAt(position),
+                  parts!.elementAt(position),
                   style: TextStyle(fontSize: 22.0, color: Colors.white),
                   textAlign: TextAlign.center,
                 ),
@@ -72,7 +72,7 @@ class _MenuListWidgetState extends State<MenuListWidget> {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (BuildContext context) {
-          actualPart = parts.elementAt(position);
+          actualPart = parts!.elementAt(position);
           return new AllFromTappedPartWidget();
         },
       ),
@@ -85,7 +85,7 @@ Future<String> loadTXT() async {
 }
 
 Future<bool> readFileByLines() async {
-  files = new List<FileData>();
+  files = [];
   String data = await loadTXT();
   List<String> lines = data.split("\r\n");
 
@@ -96,12 +96,12 @@ Future<bool> readFileByLines() async {
         lines.elementAt((i + 1) * 4 - 2),
         lines.elementAt((i + 1) * 4 - 1),
         lines.elementAt((i + 1) * 4) == "true" ? true : false);
-    files.add(fileData);
+    files!.add(fileData);
   }
 
-  for (int i = 0; i < files.length; i++) {
-    if (!parts.contains(files.elementAt(i).part)) {
-      parts.add(files.elementAt(i).part);
+  for (int i = 0; i < files!.length; i++) {
+    if (!parts!.contains(files!.elementAt(i).part)) {
+      parts!.add(files!.elementAt(i).part);
     }
   }
   return true;
