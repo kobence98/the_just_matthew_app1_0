@@ -86,28 +86,11 @@ Future<String> loadTXT() async {
 }
 
 Future<bool> readFileByLines() async {
-  Fluttertoast.showToast(
-      msg: "read started",
-      toastLength: Toast.LENGTH_LONG,
-      gravity: ToastGravity.TOP,
-      timeInSecForIosWeb: 1,
-      backgroundColor: Colors.red,
-      textColor: Colors.white,
-      fontSize: 16.0
-  );
+
   files = [];
   String data = await loadTXT();
   List<String> lines = data.split("\n");
 
-  Fluttertoast.showToast(
-      msg: lines.elementAt(0),
-      toastLength: Toast.LENGTH_LONG,
-      gravity: ToastGravity.CENTER,
-      timeInSecForIosWeb: 1,
-      backgroundColor: Colors.red,
-      textColor: Colors.white,
-      fontSize: 16.0
-  );
   for (int i = 0; i < int.parse(lines.elementAt(0)); i++) {
     FileData fileData = new FileData(
         i,
@@ -123,14 +106,6 @@ Future<bool> readFileByLines() async {
       parts!.add(files!.elementAt(i).part);
     }
   }
-  Fluttertoast.showToast(
-      msg: "read ended",
-      toastLength: Toast.LENGTH_LONG,
-      gravity: ToastGravity.BOTTOM,
-      timeInSecForIosWeb: 1,
-      backgroundColor: Colors.red,
-      textColor: Colors.white,
-      fontSize: 16.0
-  );
+
   return true;
 }
