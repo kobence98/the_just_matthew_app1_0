@@ -97,7 +97,7 @@ Future<bool> readFileByLines() async {
   );
   files = [];
   String data = await loadTXT();
-  List<String> lines = data.split("\r\n");
+  List<String> lines = data.split("\n");
 
   Fluttertoast.showToast(
       msg: lines.elementAt(0),
